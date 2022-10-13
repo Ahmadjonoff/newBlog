@@ -6,6 +6,12 @@ name = "pypi"
 [packages]
 django = "*"
 django-crispy-forms = "*"
+pillow = "*"
+django-ckeditor = "*"
+environs = {extras = ["django"], version = "*"}
+psycopg2-binary = "*"
+whitenoise = "*"
+gunicorn = "*"
 
 [dev-packages]
 
